@@ -30,6 +30,18 @@ public class HomePage {
   
 		    @FindBy(linkText = "Products")
 		    WebElement product;
+       
+		    @FindBy(linkText = " Opportunities")
+		    WebElement  Opportunities;
+		    
+
+		  public WebElement getOpportunities() {
+				return Opportunities;
+			}
+
+
+ 
+
 
 
 		  public WebElement getProduct() {
